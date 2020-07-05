@@ -188,15 +188,14 @@ ul1{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: ;
-    min-width: 10em;
     z-index: 1;
 }
 .dropdown-content a {
     float: none;
     color: white;
     background-color:black;
-    padding: 1em 1em;
+    padding: 1em 0em;
+    min-width:10em;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -219,8 +218,7 @@ td{
 */
 }
 .rnavimg{
-    width:3em;
-    padding-left:1em;
+    width:3em;padding-left:1em;
 }
 .middle{
     text-decoration:underline;
