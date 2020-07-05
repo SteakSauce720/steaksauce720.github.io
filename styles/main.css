@@ -90,6 +90,11 @@ a:link {
     background-color: transparent;
     text-decoration:underline;
 }
+.product:link {
+    color:black;
+    background-color:transparent;
+    text-decoration:underline;
+}
 a:visited{
     color:purple;
     background-color:transparent;
