@@ -1,0 +1,233 @@
+html{
+    background-image:url("../images/bats.gif");
+}
+body {
+    font-family:sans-serif;
+    width:800px;
+    background-color:white;
+    border:5px solid black;
+    box-shadow:10px 15px 15px black,-10px 15px 15px black, 10px 15px 15px black;   
+    padding:0em;
+    margin:0em auto;
+    
+}
+img{
+    float:left;
+    padding-top:.5em;
+    padding-left:.5em;
+    padding-right:1em;
+    padding-bottom:.5em;
+}
+.header{
+    background-image:linear-gradient(45deg,white,orange,black);
+    padding-top:.1em;
+    padding-bottom:0em;
+    outline-color:black;
+    outline-style:solid;
+    background-position: top;
+    margin-top:0em;
+}
+.main{
+    padding-top:0em;
+    padding-left:10em;
+    padding-right:8em;
+}
+.main1{
+    padding-top:0em;
+    padding-left:10em;
+    padding-right:14em;
+}
+.footer{
+    background-image:linear-gradient(45deg,black,orange,white);
+    outline-color:black;
+    outline-style:solid;
+    
+    text-align:center;
+    margin:0em 0em 0em 0em;
+    padding-bottom:.1em;
+    padding-top:.1em;
+}
+p1{
+    margin-left:0em;
+    margin-right:0em;
+    
+}
+h1{
+    font-size:200%;
+    font-weight:800;
+    padding-top:0em;
+    padding-bottom:0em;
+    margin-bottom:0em;
+    
+    /*font-style:italic;
+    color:orange;
+    text-shadow:2px 2px black;*/
+}
+h2{
+    font-size:100%;
+    font-weight:800;
+    padding-top:0em;
+    padding-bottom:1em;
+    margin-top:0em;
+    margin-bottom:0em;
+}
+h3{
+    font-weight: 800;
+}
+h4{
+    text-align:center;
+    font-size:140%;
+    font-weight:800;
+    margin-top:0em;
+    margin-bottom:0em;
+    margin-right:4em;
+    padding-top:1em;
+    
+    
+}
+a:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration:underline;
+}
+a:visited{
+    color:purple;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.button {
+    background-color:Orange;
+    border: 2px solid black;
+    text-align:left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 600;
+    margin: 0em 0em .5em 0em;
+    width:75%;
+    height:2.4em;\
+    cursor: pointer;
+}
+.sidenav {
+    height:auto;
+    width:10em;
+    position: fixed;
+    z-index:1;
+    top:11.5em;
+    margin-top:0em;
+    overflow-x: hidden;
+    padding-top:0em;
+}
+.sidenav1{
+    background-color:#F5DEB3;
+    height:auto;
+    width:12em;right:5em;
+    position:fixed;
+    top:10.1em;
+    margin-top:0em;
+    margin-left:0em;
+    margin-right:0em;
+    padding-top:0em;
+    padding-left:.8em;
+    padding-right:1em;
+}
+ul{
+    list-style-type:none;
+    margin-left: 0em;
+    padding-left:1em;
+}
+li1 {
+    margin-left:1em;
+}
+ul1{
+    list-style-type:none;
+    margin-left: 0em;
+    padding-left:0em;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    margin:0em auto;
+
+}
+.navbar a {
+    float: left;
+    font-size: 100%;
+    color: white;
+    text-align:center;
+    padding: 1em 0em;
+    text-decoration: none;
+    min-width:10em;
+    margin:0em 0em 0em 0em;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 100%;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1em 0em;
+    background-color: black;
+    font-family: inherit;
+    min-width:10em;
+    margin: 0;
+}
+.home a.home, .plist a.plist, .personal a.personal, .joinemail a.joinemail{
+    color:orange;
+}
+.navbar a:hover, .dropbtn, .dropdown:hover {
+    color:orange;
+}
+.navbar a:active{
+    color:orange;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: ;
+    min-width: 10em;
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: white;
+    background-color:black;
+    padding: 1em 1em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    background-color: gray;
+    color:white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+th{
+    min-width:10em;
+    text-align:left;
+    color:darkgray
+}
+td{
+ /*   margin:0em 0em 0em 0em;
+    padding:0em 0em 0em 0em;
+*/
+}
+.rnavimg{
+    width:3em;
+    padding-left:1em;
+}
+.middle{
+    text-decoration:underline;
+}
+.right{
+    background-color:#F5DEB3;
+    min-width:3em;
+    text-align:right;
+    margin:0em 0em 0em 0em;
+}
