@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Data</title>
+    
+    	<meta charset="utf-8" />
+    <link rel="shortcut icon" href="/images/KoreanFlag.JPG">
+    <link rel="stylesheet" href="/navbar/teaching_app.css">
+
+<script type="text/javascript">
+//<![CDATA[
+var decode = function ( text ) {
+    text = text.replace(/\+/g, " ");
+    text = text.replace(/%[a-fA-F0-9]{2}/g, 
+        function ( text ) {
+            return String.fromCharCode( "0x" + text.substr(1,2));
+        }
+    );
+    return text;
+}
+var display_data = function () {
+    var query = location.search.replace("?", "");
+    if ( query == "" ) return;
+    
+    var fields = query.split("&");
+    
+    if ( fields.length == 0 ) {
+        document.write("<p>No data was submitted.</p>");
+    } else {
+        document.write("<dl>");
+        var field_parts;
+        for ( var i in fields ) {
+            field_parts = fields[i].split("=");
+            field_parts[0] = decode( field_parts[0] );
+            field_parts[1] = decode( field_parts[1] );
+            document.write("<dt>" + field_parts[0] + "</dt>");
+            document.write("<dd>" + field_parts[1] + "</dd>");
+        }
+        document.write("</dl>");
+    }
+}
+//]]>
+</script>
+   
+</head>
+<body>
+        <div class="header">
+        <img src="/images/KoreanFlag.JPG" alt="Korean Flag" style="width:5em;">
+        <h1>David's Website</h1>
+        <h2>It deserves an A+!!!</h2>
+        
+    <div class="navbar">
+         <a class="home" href="/index.html">Home</a>
+         <a class="plist" href="/navbar/cs_prog.html">CS Program</a>
+         <a class="personal" href="/navbar/teaching_app.html">TA Application</a>
+        <a class="personal" href="/navbar/gpa.html">GPA Calculate</a>
+     <a class="joinemail" href="/navbar/about.html">About Us</a>
+    </div> 
+        
+    </div>
+    
+     <div class="main">
+    <h1>Survey Data</h1>
+    <script>display_data();</script>
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+         
+    </div>
+     <div class="sidenav">
+         <ul >
+            <li><a href="/sidenav/news.html"><button class="button">News</button></a></li>
+             <li><a href="/sidenav/events.html"><button class="button">Events</button></a></li>
+             <li><a href="/sidenav/upact.html"><button class="button">Upcoming Activities</button></a></li>
+             <li><a href="/sidenav/contact.html"><button class="button">Contact Us</button></a></li>
+         </ul>
+   </div>
+    <div class="footer">   
+    <p>(c) 2020 David Song</p>
+    </div>
+    </body>
+</html>

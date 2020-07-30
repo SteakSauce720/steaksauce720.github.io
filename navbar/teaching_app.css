@@ -182,7 +182,7 @@ ul1{
     color:orange;
 }
 .navbar a:hover, .dropbtn, .dropdown:hover {
-    color:royalblue;
+    color:orange;
 }
 .navbar a:active{
     color:orange;
@@ -216,7 +216,7 @@ table{
 th{
     min-width:10em;
     text-align:left;
-    color:Black;
+    color:darkgray
 }
 td{
     border:1px solid black;
@@ -234,3 +234,23 @@ td{
     text-align:right;
     margin:0em 0em 0em 0em;
 }
+input {
+    width: 15em;
+    margin: 0 0 .5em 1em;
+    margin-left: 1em;
+    margin-bottom:.5em;
+}
+label {
+    color: black;
+    float: left;
+    width: 8em;
+    font-weight: bold;
+    text-align: left;
+}
+#button, #reset {
+    width: 7em;
+    background-color: silver;
+    box-shadow: 2px 2px 0 blue; }
+#button {
+    margin-left: 9em;
+		}

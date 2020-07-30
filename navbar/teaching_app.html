@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>David's Website</title>
+    <link rel="shortcut icon" href="/images/KoreanFlag.JPG">
+    <link rel="stylesheet" href="/navbar/teaching_app.css">
+    
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="/images/KoreanFlag.JPG" alt="Korean Flag" style="width:5em;">
+        <h1>David's Website</h1>
+        <h2>It deserves an A+!!!</h2>
+        
+    <div class="navbar">
+         <a class="home" href="/index.html">Home</a>
+         <a class="plist" href="/navbar/cs_prog.html">CS Program</a>
+         <a class="personal" href="/navbar/teaching_app.html">TA Application</a>
+        <a class="personal" href="/navbar/gpa.html">GPA Calculate</a>
+     <a class="joinemail" href="/navbar/about.html">About Us</a>
+    </div> 
+        
+    </div>
+    
+
+    <div class="main">
+        
+    <h1>Teacher's Assistant Application</h1>
+    <h3>Please complete the Application</h3>
+        
+    <form name="myform" action="survey_data.html" method="get"><br><br>
+
+        <label for="id">Student ID:</label>
+        <input type="text" name="Student ID" id="id"><br><br>
+        <label for="firstname">First name:</label>
+        <input type="text" name="First Name" id="firstname"><br><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="Last Name" id="lastname"><br><br>
+
+        <label for="gpa">GPA:</label>
+        <input type="text" name="GPA" id="gpa" maxlength="3" placeholder="0.0"><br><br>
+        <label for "sdate">Submission Date:</label>
+        <input type="date" name="Submission Date" id="sdate" placeholder="XX/XX/XXXX"><br><br>
+
+        <label for="male">Male:</label>
+        <input type="checkbox" name="Male" value="male"><br><br>
+        <label for="fbook">Female:</label>
+        <input type="checkbox" name="Female" value="female"><br><br>
+
+
+
+        <h2>Thank you for taking our survey!</h2>
+        <input type="submit" name="button" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset"> 
+    </form>
+        
+    <br><br><br><br><br><br><br>
+    
+    </div>
+     <div class="sidenav">
+         <ul >
+            <li><a href="/sidenav/news.html"><button class="button">News</button></a></li>
+             <li><a href="/sidenav/events.html"><button class="button">Events</button></a></li>
+             <li><a href="/sidenav/upact.html"><button class="button">Upcoming Activities</button></a></li>
+             <li><a href="/sidenav/contact.html"><button class="button">Contact Us</button></a></li>
+         </ul>
+   </div>
+    <div class="footer">   
+    <p>(c) 2020 David Song</p>
+    </div>
+    </body>
+</html>

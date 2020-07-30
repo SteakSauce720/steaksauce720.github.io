@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>David's Website</title>
+    <link rel="shortcut icon" href="/images/KoreanFlag.JPG">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="gpa.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="/images/KoreanFlag.JPG" alt="Korean Flag" style="width:5em;">
+        <h1>David's Website</h1>
+        <h2>It deserves an A+!!!</h2>
+        
+    <div class="navbar">
+         <a class="home" href="/index.html">Home</a>
+         <a class="plist" href="/navbar/cs_prog.html">CS Program</a>
+         <a class="personal" href="/navbar/teaching_app.html">TA Application</a>
+        <a class="personal" href="/navbar/gpa.html">GPA Calculate</a>
+     <a class="joinemail" href="/navbar/about.html">About Us</a>
+</div> 
+        
+    </div>
+    
+
+    <div class="main">
+        
+    <h1>GPA Calculator</h1>
+    
+    <br><br>
+        
+    <form name="gpacalcform">   
+        <table cellspacing="2" cellpadding="5" border="2">
+            <tbody>
+                <tr>
+                    <th></th>
+                    <th>Letter Grade</th>
+                    <th>Hours(Credits)</th>
+                </tr>
+                <tr>
+                    <td>Subject 1</td>
+                    <td><input id="gr1" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr1" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr>
+                <tr>
+                    <td>Subject 2</td>
+                    <td><input id="gr2" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr2" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr>
+                <tr>
+                    <td>Subject 3</td>
+                    <td><input id="gr3" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr3" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr> 
+                <tr>
+                    <td>Subject 4</td>
+                    <td><input id="gr4" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr4" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr> 
+                <tr>
+                    <td>Subject 5</td>
+                    <td><input id="gr5" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr5" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr> 
+                <tr>
+                    <td>Subject 6</td>
+                    <td><input id="gr6" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr6" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr>
+                <tr>
+                    <td>Subject 7</td>
+                    <td><input id="gr7" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr7" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr>
+                
+                <tr>
+                    <td>Subject 8</td>
+                    <td><input id="gr8" type="text" size="5" maxlength="1" align="top"></td>
+                    <td><input id="cr8" type="text" size="5" maxlength="3" placeholder="0.0" align="top"></td>
+                </tr>
+               
+                <tr>
+                    <td colspan="3">
+                        <input type="button" value="Calculate" name="calcbutton" onclick="calculateGPA()">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br><br><br><br><br><br><br><br>
+    </div>
+     <div class="sidenav">
+         <ul >
+            <li><a href="/sidenav/news.html"><button class="button">News</button></a></li>
+             <li><a href="/sidenav/events.html"><button class="button">Events</button></a></li>
+             <li><a href="/sidenav/upact.html"><button class="button">Upcoming Activities</button></a></li>
+             <li><a href="/sidenav/contact.html"><button class="button">Contact Us</button></a></li>
+         </ul>
+   </div>
+    <div class="footer">   
+    <p>(c) 2020 David Song</p>
+    </div>
+    </body>
+</html>
